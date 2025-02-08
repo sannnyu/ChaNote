@@ -7,11 +7,11 @@
         mc:Ignorable="d"
         Title="ChaNote"  Height="250" Width="250" Topmost="True" Closing="Window_Closing" WindowStyle="None"
         WindowStartupLocation="Manual" 
-        AllowsTransparency="True" Opacity="0.85" 
+        AllowsTransparency="True" Opacity="0.70" 
         KeyDown="Window_KeyDown" >
     <!-- 使用 WindowChrome 来实现拖拽和调整大小 -->
     <shell:WindowChrome.WindowChrome>
-        <shell:WindowChrome CaptionHeight="30" ResizeBorderThickness="5" GlassFrameThickness="0"/>
+        <shell:WindowChrome CaptionHeight="30" CornerRadius="0" ResizeBorderThickness="5" GlassFrameThickness="0"/>
     </shell:WindowChrome.WindowChrome>
     <Grid>
             <Grid.RowDefinitions>
@@ -30,7 +30,8 @@
                 </Grid.ColumnDefinitions>
 
                 <!-- Logo -->
-                <Image Source="/8pksn-sfatf-001.ico" Width="30" Height="30" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+            <Image Source="/xu868-p0am7-001.ico" Width="30" Height="30" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+
 
 
                 <!-- 标题 -->
@@ -43,7 +44,7 @@
 
             </Grid>
             <!-- 文本框，用于输入笔记 -->
-            <TextBox Grid.Row="1" Name="NoteTextBox"  TextWrapping="Wrap" Background="#FFA9DAB6"  FontSize="18" AcceptsReturn="True" AcceptsTab="True" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
+            <TextBox Grid.Row="1" Name="NoteTextBox"  TextWrapping="Wrap" Background="Transparent"  FontSize="16" AcceptsReturn="True" AcceptsTab="True" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
 
         </Grid>
   
