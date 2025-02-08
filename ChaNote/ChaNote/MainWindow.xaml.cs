@@ -21,6 +21,7 @@ namespace ChaNote
     /// </summary>
     public partial class MainWindow : Window
     {
+        
         private string filePath = "./note.txt"; // 笔记保存的文件路径
         public MainWindow()
         {
@@ -30,10 +31,13 @@ namespace ChaNote
             var screenHeight = SystemParameters.PrimaryScreenHeight;
 
             // 设置窗口位置在右上角
-            this.Left = screenWidth - this.Width - 20; // 将窗口的左边设置在屏幕的右边缘
-            this.Top = 20; // 将窗口的顶部设置在屏幕的顶端
+            this.Left = screenWidth - this.Width - 30; // 将窗口的左边设置在屏幕的右边缘
+            this.Top = 30; // 将窗口的顶部设置在屏幕的顶端
             //LoadNote(); // 启动时加载笔记
         }
+       
+
+
         // 在窗口关闭时自动保存笔记
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {

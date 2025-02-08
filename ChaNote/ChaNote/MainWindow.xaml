@@ -3,17 +3,50 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:ChaNote"
+        xmlns:local="clr-namespace:ChaNote" xmlns:shell="http://schemas.microsoft.com/netfx/2009/xaml/presentation"
         mc:Ignorable="d"
-        Title="ChaNote"  Height="250" Width="250" Topmost="True" Closing="Window_Closing" WindowStyle="SingleBorderWindow"
+        Title="ChaNote"  Height="250" Width="250" Topmost="True" Closing="Window_Closing" WindowStyle="None"
         WindowStartupLocation="Manual" 
-        AllowsTransparency="False" Opacity="1" 
-        KeyDown="Window_KeyDown">
-
+        AllowsTransparency="True" Opacity="0.85" 
+        KeyDown="Window_KeyDown" >
+    <!-- 使用 WindowChrome 来实现拖拽和调整大小 -->
+    <shell:WindowChrome.WindowChrome>
+        <shell:WindowChrome CaptionHeight="30" ResizeBorderThickness="5" GlassFrameThickness="0"/>
+    </shell:WindowChrome.WindowChrome>
     <Grid>
-       
+            <Grid.RowDefinitions>
+                <RowDefinition Height="32"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" Background="#FF333333" MouseDown="TitleBar_MouseDown">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="32"/>
+                    <!-- Logo宽度 -->
+                    <ColumnDefinition Width="Auto"/>
+                    <!-- 标题宽度 -->
+                    <ColumnDefinition Width="*"/>
+                    <!-- 标题栏右侧扩展 -->
+                </Grid.ColumnDefinitions>
+
+                <!-- Logo -->
+                <Image Source="/8pksn-sfatf-001.ico" Width="30" Height="30" HorizontalAlignment="Center" VerticalAlignment="Center"  />
+
+
+                <!-- 标题 -->
+                <TextBlock Text="ChaNote" 
+                       VerticalAlignment="Center" 
+                       Margin="5"
+                       Foreground="White" 
+                       FontSize="14"
+                       Grid.Column="1"/>
+
+            </Grid>
             <!-- 文本框，用于输入笔记 -->
-            <TextBox Name="NoteTextBox"  TextWrapping="Wrap" Background="#FFA9DAB6"  FontSize="18" AcceptsReturn="True" AcceptsTab="True" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
-        
-    </Grid>
+            <TextBox Grid.Row="1" Name="NoteTextBox"  TextWrapping="Wrap" Background="#FFA9DAB6"  FontSize="18" AcceptsReturn="True" AcceptsTab="True" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
+
+        </Grid>
+  
+
+    
 </Window>
