@@ -21,58 +21,27 @@ namespace ChaNote
     /// </summary>
     public partial class MainWindow : Window
     {
-        private string filePath = "./note.txt"; // 笔记保存的文件路径
+        
         public MainWindow()
         {
             InitializeComponent();
-            // 获取当前屏幕的宽度和高度
-            var screenWidth = SystemParameters.PrimaryScreenWidth;
-            var screenHeight = SystemParameters.PrimaryScreenHeight;
 
-            // 设置窗口位置在右上角
-            this.Left = screenWidth - this.Width - 20; // 将窗口的左边设置在屏幕的右边缘
-            this.Top = 20; // 将窗口的顶部设置在屏幕的顶端
-            //LoadNote(); // 启动时加载笔记
         }
         // 在窗口关闭时自动保存笔记
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            //SaveNote(); // 关闭窗口前保存笔记
+
+            // 保存窗口位置
+            Properties.Settings.Default.WindowPosition = new System.Drawing.Point((int)this.Left, (int)this.Top);
+            Properties.Settings.Default.Save();
+
         }
 
-        // 保存笔记到文件
-        private void SaveNote()
-        {
-            File.WriteAllText(filePath, NoteTextBox.Text);
-        }
+       
 
+       
+       
 
-        // Handle window drag
-        private void TitleBar_MouseDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
-        {
-            if (e.LeftButton == System.Windows.Input.MouseButtonState.Pressed)
-            {
-                this.DragMove();
-            }
-        }
-         // ToggleButton event handlers
-        private void ToggleButton_Checked(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("ToggleButton is checked!");
-        }
-
-        private void ToggleButton_Unchecked(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("ToggleButton is unchecked!");
-        }
-        // 加载笔记内容
-        private void LoadNote()
-        {
-            if (File.Exists(filePath))
-            {
-                NoteTextBox.Text = File.ReadAllText(filePath);
-            }
-        }
         // 监听按键事件，按下Esc键时关闭窗口
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {

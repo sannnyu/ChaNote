@@ -13,7 +13,7 @@
     <Grid>
        
             <!-- 文本框，用于输入笔记 -->
-            <TextBox Name="NoteTextBox"  TextWrapping="Wrap" Background="White"  FontSize="18" AcceptsReturn="True" AcceptsTab="True" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
+            <TextBox Name="NoteTextBox"  TextWrapping="Wrap" Background="White"  FontSize="16" AcceptsReturn="True" AcceptsTab="True" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
         
     </Grid>
 </Window>
