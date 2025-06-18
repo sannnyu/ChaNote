@@ -3,18 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\sa\\Documents\\GitHub\\ChaNote\\ChaNote\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{D4D3A6E2-BEDF-498B-A20F-16C8040C2CE2}|ChaNote\\ChaNote.csproj|C:\\Users\\sa\\Documents\\GitHub\\ChaNote\\ChaNote\\chanote\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}",
       "RelativeMoniker": "D:0:0:{D4D3A6E2-BEDF-498B-A20F-16C8040C2CE2}|ChaNote\\ChaNote.csproj|solutionrelative:chanote\\properties\\settings.settings||{6D2695F9-5365-4A78-89ED-F205C045BFE6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4D3A6E2-BEDF-498B-A20F-16C8040C2CE2}|ChaNote\\ChaNote.csproj|c:\\users\\sa\\documents\\github\\chanote\\chanote\\chanote\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{D4D3A6E2-BEDF-498B-A20F-16C8040C2CE2}|ChaNote\\ChaNote.csproj|solutionrelative:chanote\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+=======
+      "AbsoluteMoniker": "D:0:0:{D4D3A6E2-BEDF-498B-A20F-16C8040C2CE2}|ChaNote\\ChaNote.csproj|c:\\users\\sa\\documents\\github\\chanote\\chanote\\chanote\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4D3A6E2-BEDF-498B-A20F-16C8040C2CE2}|ChaNote\\ChaNote.csproj|solutionrelative:chanote\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+>>>>>>> loving
     },
     {
       "AbsoluteMoniker": "D:0:0:{D4D3A6E2-BEDF-498B-A20F-16C8040C2CE2}|ChaNote\\ChaNote.csproj|C:\\Users\\sa\\Documents\\GitHub\\ChaNote\\ChaNote\\chanote\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{D4D3A6E2-BEDF-498B-A20F-16C8040C2CE2}|ChaNote\\ChaNote.csproj|solutionrelative:chanote\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{D4D3A6E2-BEDF-498B-A20F-16C8040C2CE2}|ChaNote\\ChaNote.csproj|C:\\Users\\sa\\Documents\\GitHub\\ChaNote\\ChaNote\\chanote\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{D4D3A6E2-BEDF-498B-A20F-16C8040C2CE2}|ChaNote\\ChaNote.csproj|solutionrelative:chanote\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
@@ -24,6 +30,14 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|ChaNote||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+=======
+      "AbsoluteMoniker": "D:0:0:{D4D3A6E2-BEDF-498B-A20F-16C8040C2CE2}|ChaNote\\ChaNote.csproj|c:\\users\\sa\\documents\\github\\chanote\\chanote\\chanote\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{D4D3A6E2-BEDF-498B-A20F-16C8040C2CE2}|ChaNote\\ChaNote.csproj|solutionrelative:chanote\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D4D3A6E2-BEDF-498B-A20F-16C8040C2CE2}|ChaNote\\ChaNote.csproj|C:\\Users\\sa\\Documents\\GitHub\\ChaNote\\ChaNote\\chanote\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D4D3A6E2-BEDF-498B-A20F-16C8040C2CE2}|ChaNote\\ChaNote.csproj|solutionrelative:chanote\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+>>>>>>> loving
     }
   ],
   "DocumentGroupContainers": [
@@ -33,11 +47,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 2,
+=======
+          "SelectedChildIndex": 1,
+>>>>>>> loving
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+<<<<<<< HEAD
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\sa\\Documents\\GitHub\\ChaNote\\ChaNote\\ChaNote\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ChaNote\\MainWindow.xaml.cs",
@@ -81,22 +100,41 @@
               "RelativeToolTip": "ChaNote\\ChaNote.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-02-08T13:07:17.382Z"
+=======
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\sa\\Documents\\GitHub\\ChaNote\\ChaNote\\ChaNote\\App.config",
+              "RelativeDocumentMoniker": "ChaNote\\App.config",
+              "ToolTip": "C:\\Users\\sa\\Documents\\GitHub\\ChaNote\\ChaNote\\ChaNote\\App.config",
+              "RelativeToolTip": "ChaNote\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-06-18T07:27:31.071Z",
+              "EditorCaption": ""
+>>>>>>> loving
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\Users\\sa\\Documents\\GitHub\\ChaNote\\ChaNote\\ChaNote\\App.xaml",
               "RelativeDocumentMoniker": "ChaNote\\App.xaml",
               "ToolTip": "C:\\Users\\sa\\Documents\\GitHub\\ChaNote\\ChaNote\\ChaNote\\App.xaml",
               "RelativeToolTip": "ChaNote\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+<<<<<<< HEAD
               "WhenOpened": "2025-02-08T13:03:43.449Z",
+=======
+              "WhenOpened": "2025-06-18T07:25:03.637Z",
+>>>>>>> loving
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 1,
+=======
+              "DocumentIndex": 3,
+>>>>>>> loving
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\sa\\Documents\\GitHub\\ChaNote\\ChaNote\\ChaNote\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ChaNote\\MainWindow.xaml",
@@ -105,6 +143,22 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-08T01:57:38.015Z",
               "EditorCaption": ""
+<<<<<<< HEAD
+=======
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\sa\\Documents\\GitHub\\ChaNote\\ChaNote\\ChaNote\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ChaNote\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\sa\\Documents\\GitHub\\ChaNote\\ChaNote\\ChaNote\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ChaNote\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T01:57:37.207Z",
+              "EditorCaption": ""
+>>>>>>> loving
             }
           ]
         }

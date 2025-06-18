@@ -21,13 +21,22 @@ namespace ChaNote
     /// </summary>
     public partial class MainWindow : Window
     {
+<<<<<<< HEAD
         public MainWindow()
         {
             InitializeComponent();
+=======
+        
+        public MainWindow()
+        {
+            InitializeComponent();
+
+>>>>>>> loving
         }
 
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
+<<<<<<< HEAD
             // 保存窗口位置
             Properties.Settings.Default.WindowPosition = new System.Drawing.Point((int)this.Left, (int)this.Top);
             Properties.Settings.Default.Save();
@@ -40,6 +49,20 @@ namespace ChaNote
                 this.DragMove();
             }
         }
+=======
+
+            // 保存窗口位置
+            Properties.Settings.Default.WindowPosition = new System.Drawing.Point((int)this.Left, (int)this.Top);
+            Properties.Settings.Default.Save();
+
+        }
+
+       
+
+       
+       
+
+>>>>>>> loving
         // 监听按键事件，按下Esc键时关闭窗口
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
