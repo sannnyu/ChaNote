@@ -44,16 +44,10 @@
 
             </Grid>
             <!-- 文本框，用于输入笔记 -->
-<<<<<<< HEAD
             <TextBox Grid.Row="1" Name="NoteTextBox"  TextWrapping="Wrap" Background="Transparent"  FontSize="16" AcceptsReturn="True" AcceptsTab="True" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
 
         </Grid>
   
 
     
-=======
-            <TextBox Name="NoteTextBox"  TextWrapping="Wrap" Background="White"  FontSize="16" AcceptsReturn="True" AcceptsTab="True" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
-        
-    </Grid>
->>>>>>> loving
 </Window>

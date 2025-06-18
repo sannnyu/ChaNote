@@ -14,12 +14,6 @@ namespace ChaNote
     /// </summary>
     public partial class App : Application
     {
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> loving
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
@@ -53,9 +47,5 @@ namespace ChaNote
                 ChaNote.Properties.Settings.Default.Save();
             }
         }
-<<<<<<< HEAD
-=======
-
->>>>>>> loving
     }
 }
